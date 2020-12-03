@@ -14,7 +14,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 @SpringBootApplication
 @EnableConfigurationProperties
 // enable hystrix for circuit breaker pattern . to handle failing api by break api for a while
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
+//@EnableHystrixDashboard
 
 // for eureka server
 @EnableEurekaClient
